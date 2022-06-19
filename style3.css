@@ -1,0 +1,31 @@
+body {
+    width: 170px;
+    height: 350px;
+}
+
+.container {
+    width: 170px;
+    height: 350px;
+    background: linear-gradient(to left, #780206, #061161);
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+a {
+    color: white;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.photo {
+    width: 145px;
+    height: 260px;
+    margin-top: 10px;
+    background-image: url(https://i.pinimg.com/736x/37/6b/49/376b49a45c4047902d618ee0b8514f84--fnaf-freddy-freddy-fazbear.jpg);
+    background-size: contain;
+}
+
+.href {
+    font-size: 10px;
+}
